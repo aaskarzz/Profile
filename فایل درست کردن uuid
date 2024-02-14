@@ -1,0 +1,12 @@
+این فایل یک کد پایتون بوده و کافیست آنرا در محیط پایتون اجرا کنید  
+
+import uuid
+
+unique_id = uuid.uuid4()
+print(unique_id)
+
+unique_id_str = unique_id.hex
+print("UUID HEX:", (unique_id_str))
+
+
+خروجی uuid شماست
